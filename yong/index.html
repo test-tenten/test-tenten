@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>yong</title>
+  <style>
+    button {
+      cursor: pointer;
+      border: 0;
+      color: red;
+      background-color: aquamarine;
+      padding: 20px 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>상용이의 Logout</h1>
+  <button onclick="put()" type="button">Logout</button>
+
+  <script>
+    const btn = document.querySelector('button')
+    const h1 = document.querySelector('h1')
+    function put() {
+      h1.textContent = '응 로그아웃 안돼'
+      btn.textContent = '바보'
+    }
+  </script>
+</body>
+
+</html>
